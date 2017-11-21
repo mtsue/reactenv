@@ -1,0 +1,26 @@
+{
+  "name": "reactenv",
+  "version": "0.0.1",
+  "description": "reactenv is React environment using webpack.",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtsue/reactenv.git"
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "author": "mtsue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtsue/reactenv/issues"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}
