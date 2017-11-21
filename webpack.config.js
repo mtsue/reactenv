@@ -54,6 +54,22 @@ module.exports = [
                     }],
                     fallback: 'style-loader'
                 })
+            }, {
+                test: /\.(png|svg|jpg|gif)$/,
+                use: [{
+                    loader: 'file-loader',
+                    options: {
+                        name: 'images/[name].[ext]'
+                    }
+                }]
+            }, {
+                test: /\.(woff|woff2|eot|ttf|otf)$/,
+                use: [{
+                    loader: 'file-loader',
+                    options: {
+                        name: 'fonts/[name].[ext]'
+                    }
+                }]
             }]
         },
         plugins: [
