@@ -18,5 +18,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mtsue/reactenv/issues"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0"
   }
 }
