@@ -1,6 +1,6 @@
 {
   "name": "reactenv",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "reactenv is React environment using webpack.",
   "main": "index.js",
   "scripts": {
